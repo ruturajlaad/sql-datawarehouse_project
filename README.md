@@ -65,9 +65,11 @@ Build a SQL Server Data Warehouse that consolidates sales data to enable reporti
 ---
 ## Repository Structure:
 
-data-warehouse-project/
+## 📂 Repository Structure
+
+sql-datawarehouse_project/
 │
-├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
+├── datasets/                           # Raw datasets used for the project (ERP & CRM data)
 │
 ├── docs/                               # Project documentation and architecture details
 │   ├── etl.drawio                      # Draw.io file shows all different techniques and methods of ETL
