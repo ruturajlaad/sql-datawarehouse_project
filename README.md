@@ -63,11 +63,10 @@ Build a SQL Server Data Warehouse that consolidates sales data to enable reporti
 - **Documentation**: Provide clear explanation of the data model for stakeholders and analysts.  
 
 ---
-## Repository Structure:
 
 ## 📂 Repository Structure
 
-sql-datawarehouse_project/
+sql-datawarehouse-project/
 │
 ├── datasets/                           # Raw datasets used for the project (ERP & CRM data)
 │
@@ -77,12 +76,12 @@ sql-datawarehouse_project/
 │   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
 │   ├── data_flow.drawio                # Draw.io file for the data flow diagram
 │   ├── data_models.drawio              # Draw.io file for data models (star schema)
-│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
+│   └── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
 │
 ├── scripts/                            # SQL scripts for ETL and transformations
 │   ├── bronze/                         # Scripts for extracting and loading raw data
 │   ├── silver/                         # Scripts for cleaning and transforming data
-│   ├── gold/                           # Scripts for creating analytical models
+│   └── gold/                           # Scripts for creating analytical models
 │
 ├── tests/                              # Test scripts and quality files
 │
