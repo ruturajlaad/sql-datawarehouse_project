@@ -42,8 +42,7 @@ This repository is an excellent portfolio piece to showcase skills in:
 ## 🛠️ Tools & Resources (Free to Use)  
 
 - **Datasets** → Provided CSV files for ERP & CRM data.  
-- **SQL Server Express** → Lightweight SQL database server.  
-- **SQL Server Management Studio (SSMS)** → GUI to manage SQL Server.  
+- **Postgres** 
 - **GitHub** → Version control & project collaboration.  
 - **DrawIO** → For architecture diagrams and data modeling.  
 - **Notion** → Project management & documentation templates.  
@@ -69,6 +68,19 @@ Build a SQL Server Data Warehouse that consolidates sales data to enable reporti
 <img width="909" height="588" alt="image" src="https://github.com/user-attachments/assets/fe2fb9c3-8353-4cf3-8341-3fca22346942" />
 
 
+# init_database.sql
+
+This script initializes the **Datawarehouse** PostgreSQL database and sets up the required schemas for a **data lakehouse-style architecture**.
+
+## Schemas Created
+
+- **bronze** → Raw ingested data  
+- **silver** → Cleaned and processed data  
+- **gold** → Curated, analytics-ready data  
+
+## Usage
+
+Run the script usin
 
 ## 🛡️ License  
 
