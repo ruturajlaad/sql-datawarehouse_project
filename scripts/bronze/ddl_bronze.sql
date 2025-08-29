@@ -27,16 +27,16 @@ CREATE TABLE bronze.crm_prd_info (
 -- Drop and recreate bronze.crm_sales_details
 DROP TABLE IF EXISTS bronze.crm_sales_details;
 
-CREATE TABLE bronze.crm_sales_details (
-    sls_ord_num  VARCHAR(50),
-    sls_prd_key  VARCHAR(50),
-    sls_cust_id  INT,
-    sls_order_dt DATE,
-    sls_ship_dt  DATE,
-    sls_due_dt   DATE,
-    sls_sales    INT,
-    sls_quantity INT,
-    sls_price    INT
+CREATE TABLE bronze.crm_sales_details(
+    sls_ord_num  TEXT,
+    sls_prd_key  TEXT,
+    sls_cust_id  TEXT,
+    sls_order_dt TEXT,
+    sls_ship_dt  TEXT,
+    sls_due_dt   TEXT,
+    sls_sales    TEXT,
+    sls_quantity TEXT,
+    sls_price    TEXT
 );
 
 -- Drop and recreate bronze.erp_loc_a101
